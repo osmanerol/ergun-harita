@@ -1,0 +1,138 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+/* navbar */
+
+.navbar{
+    font-family: 'Lexend Peta', sans-serif;
+    padding:1em;
+    background-color:#fff;
+    border-bottom:1px solid #000;
+}
+
+.navbar-brand{
+    font-size:1.6em;
+    color:#000;
+}
+
+.navbar-brand:hover{
+    color:#000;
+}
+
+.nav-link{
+    color:#000;
+}
+
+.nav-link:hover{
+    background-color:#623CEA;
+    border-radius:1em;
+    color:#fff;
+}
+
+.fa-bars{
+    font-size:1.2em;
+}
+
+/* content */
+.photo{
+    width:100%;
+}
+
+.photo img{
+    width:100%;
+    max-height:650px;
+}
+
+#harita-muhendisligi{
+    margin-top:2em;
+}
+
+.sub-container{
+    margin-top:2em;
+}
+
+.title {
+    margin-bottom:1em;
+    position: relative;
+    text-align: center;
+}
+
+.title hr {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    right: 0;
+}
+
+.title .text {
+    font-family: 'Lexend Peta', sans-serif;
+    background: #fff;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.hizmet-container{
+    margin:1em 0 2em 0;
+    border-radius:1em;
+    box-shadow: 3px 6px 17px -10px #192824;
+    padding:1em;
+}
+
+#iletisim{
+    background-color:#2B2A28;
+    color:#fff;
+}
+
+#iletisim p{
+    font-family: 'Alata', sans-serif;
+}
+
+#iletisim .sub-title{
+    font-family: 'Lexend Peta', sans-serif;
+    margin-top:1em;
+}
+
+#iletisim a{
+    color:#fff;
+}
+
+#iletisim img{
+    width:60%;
+}
+
+#iletisim iframe{
+    width:100%;
+    max-height:250px;
+}
+
+#iletisim .copyright{
+    border-top:1px solid #fff;
+}
+
+@media(min-width:768px){
+    .hizmet-container{
+        margin:1em 0 2em 0;
+        border-radius:1em;
+        box-shadow: 3px 6px 17px -10px #192824;
+    }
+}
+
+@media(max-width:768px){
+    .navbar-brand{
+        font-size:1.2em;
+        color:#000;
+    }
+}
+
+@media(max-width:300px){
+    .navbar-brand{
+        font-size:1em;
+        color:#000;
+    }
+
+    .fa-bars{
+        font-size:1em;
+    }
+}

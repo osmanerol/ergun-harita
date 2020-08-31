@@ -35,8 +35,19 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#harita-muhendisligi">HARİTA MÜHENDİSLİĞİ</span></a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#hizmetler">HİZMETLER</a>
+                <li class="nav-item dropdown">
+                  <a class=" nav-link dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HİZMETLER</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href='#sinir-tespit'>Sınır Tespit</a>
+                      <a class="dropdown-item" href='#ifraz'>İfraz</a>
+                      <a class="dropdown-item" href='#yola-terk'>Yola Terk</a>
+                      <a class="dropdown-item" href='#yoldan-ihdas'>Yoldan İhdas</a>
+                      <a class="dropdown-item" href='#teknik-uygulama'>Teknik Uygulama Sorumluluğu</a>
+                      <a class="dropdown-item" href='#halihazir-harita'>Halihazır Harita</a>
+                      <a class="dropdown-item" href='#bagimsiz-bolum'>Bağımsız Bölüm Planı</a>
+                      <a class="dropdown-item" href='#ozel-agaclandirma'>Özel Ağaçlandırma Projesi</a>
+                      <a class="dropdown-item" href='#parselasyon'>Parselasyon</a>
+                  </div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#iletisim">İLETİŞİM</a>
@@ -65,33 +76,41 @@
                 <hr />
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-5 mx-auto hizmet-container text-center">
+                <div class="col-lg-4 col-md-5 mx-auto hizmet-container text-center" id="sinir-tespit">
                     <h6 class="hizmet-title text-center">Sınır Tespiti</h6>
                     <p class="text-muted  text-center">
                         Sınır tespiti belirli arsa, tarla gibi bir taşınmazın yeryüzündeki konumunun tam olarak belirlenmesi için yapılan ölçüm hizmetidir. Bu hizmeti satın alarak arsalarınızı güvenle  duvar ile çevirme ve tel örgüsü işlemlerini yaptırabilirsin.</p>
                 </div>
-                <div class="col-lg-4 col-md-5 mx-auto hizmet-container">
+                <div class="col-lg-4 col-md-5 mx-auto hizmet-container" id="ifraz">
+                    <h6 class="hizmet-title text-center">İfraz</h6>
+                    <p class="text-muted  text-center">Tapu kütüğünün müstakil bir sayfasında kayıtlı taşınmazın; ilgilisinin talebi üzerine İmar Yasasının 15 ve 16’ncı maddeleri gereğince iki ya da daha fazla parçaya ayrılıp, yerine göre belediye encümeni ya da il özel idaresi kurulu kararına bağlandıktan sonra, yeni oluşan her bir parçanın ayrı bir parsel numarası altında ayrı bir kütük sayfasına kaydedilmesi işlemine ayırma denir.</p>
+                </div>
+                <div class="col-lg-4 col-md-5 mx-auto hizmet-container" id="yola-terk">
                     <h6 class="hizmet-title text-center">Yola Terk</h6>
                     <p class="text-muted  text-center">İmar planlarının uygulanması sırasında, gayrimenkul sahiplerinin bedel karşılığı ya da bedelsiz olarak, gayrimenkulün tamamını ya da belirli bir kısmını, imar planı çerçevesinde park, yeşil alan, oyun alanı vb. tesislerin kurulumu için kamu yararı gözetilerek bırakılmasına yola terk ya da kamuya terk adı verilir.</p>
                 </div>
-                <div class="col-lg-4 col-md-5 mx-auto hizmet-container">
+                <div class="col-lg-4 col-md-5 mx-auto hizmet-container" id="yoldan-ihdas">
                     <h6 class="hizmet-title text-center">Yoldan İhdas</h6>
                     <p class="text-muted  text-center">Önceden yol olmasına rağmen, imar planı kapsamında kapanmış olan bir yolun imar planındaki amacına göre işleme tabi tutulmasına yola ihdas adı verilir. İmar Kanunu'na göre imar planı doğrultusunda herhangi bir yerin imar parselini oluşturmak amacıyla, yoldan ihdas uygulaması yapılabilir.</p>
                 </div>
-                <div class="col-lg-4 col-md-5 mx-auto hizmet-container">
+                <div class="col-lg-4 col-md-5 mx-auto hizmet-container" id="teknik-uygulama">
                     <h6 class="hizmet-title text-center">Teknik Uygulama Sorumluluğu</h6>
                     <p class="text-muted  text-center"> Yapıların, tesisatı ve malzemeleri ile birlikte, İmar Kanunu ve ilgili diğer mevzuata, uygulama imar planına, ruhsata, ruhsat eki etüt ve projelere, standartlara ve teknik şartnamelere uygun olarak inşa edilmesi için kamu adına denetlenmesi işidir.</p>
                 </div>
-                <div class="col-lg-4 col-md-5 mx-auto hizmet-container">
+                <div class="col-lg-4 col-md-5 mx-auto hizmet-container" id="halihazir-harita">
                     <h6 class="hizmet-title text-center">Halihazır Harita</h6>
                     <p class="text-muted text-center">Hali hazır harita, yeryüzü topoğrafyasının yanı sıra insan yapımı olan yol, bina gibi objeleri gösteren bir harita türüdür. İlgili kanunlar ve yönetmeliklere göre söz konusu tüm yapılar ölçülüp kağıt üzerine aktarılır. Bu haritalar çizilirken kullanılacak ölçekler 1/1000, 1/2000 ya da 1/5000 şeklinde olabilir.</p>
                 </div>
                 <div class="col-lg-4 col-md-5 mx-auto hizmet-container">
+                    <h6 class="hizmet-title  text-center">Bağımsız Bölüm Planı</h6>
+                    <p class="text-muted text-center"> Kat irtifakı veya kat mülkiyeti kurulmasına esas teşkil eden taşınmaz üzerine inşa edilecek yapı ve eklentilerin, bağımsız bölümlerin konumlarını ve numaralarını ruhsatına, projelerine, vaziyet plânındaki ölçülerine ve teknik yöntemine uygun olarak sayısal ve çizgisel şekilde gösteren plân ve projesidir</p>
+                </div>
+                <div class="col-lg-4 col-md-5 mx-auto hizmet-container" id="ozel-agaclandirma">
                     <h6 class="hizmet-title  text-center">Özel Ağaçlandırma Projesi</h6>
                     <p class="text-muted text-center">
                         Asli ve odun dışı orman ürünlerinin üretileceği ormanların kurulması amacıyla tüzel ve gerçek kişiler tarafından yapılacak ağaçlandırmalara denir.</p>
                 </div>
-                <div class="col-lg-4 col-md-5 mx-auto hizmet-container">
+                <div class="col-lg-4 col-md-5 mx-auto hizmet-container" id="parselasyon">
                     <h6 class="hizmet-title  text-center">Parselasyon</h6>
                     <p class="text-muted text-center">
                         Ham araziler üzerinde yapılan çalışmalara parselasyon denir. Bunun amacı bu ham araziler üzerinde imar parselleri oluşturmaktır. Yani, parselasyon işlemi sırasında ham arazi imar parseline dönüştürülür.

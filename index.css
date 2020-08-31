@@ -80,6 +80,14 @@
     padding:1em;
 }
 
+.hizmet-container:hover{
+    margin:1em 0 2em 0;
+    border-radius:1em;
+    box-shadow: 3px 6px 17px -10px #192824;
+    padding:1em;
+    border:1px solid #623CEA;
+}
+
 #iletisim{
     background-color:#2B2A28;
     color:#fff;
@@ -126,6 +134,10 @@
     .navbar-brand{
         font-size:1.2em;
         color:#000;
+    }
+    
+    #iletisim img{
+        width:40%;
     }
 }
 

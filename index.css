@@ -8,7 +8,6 @@
     font-family: 'Lexend Peta', sans-serif;
     padding:1em;
     background-color:#fff;
-    border-bottom:1px solid #000;
 }
 
 .navbar-brand{
@@ -37,6 +36,7 @@
 /* content */
 .photo{
     width:100%;
+    padding:0;
 }
 
 .photo img{
